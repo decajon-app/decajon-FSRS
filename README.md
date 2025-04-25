@@ -4,7 +4,7 @@
 Este repositorio contiene la API del "FSRS Service" implementada con FastAPI. Su función principal es proporcionar la lógica del algoritmo de repetición espaciada FSRS (utilizando la librería `py_fsrs`) para la aplicación DeCajon. Este servicio se comunica con el backend de Spring Boot para gestionar los datos de las piezas musicales (Cards) y el historial de repasos, permitiendo una programación optimizada de la práctica musical.
 
 ## Arquitectura
-![Diagrama a bloques de la arquitectura del sistema completo](assets/blockdiagram.png)
+![Diagrama a bloques de la arquitectura del sistema completo](fsrsapi_app/assets/blockdiagram.png)
 
 Este servicio FastAPI actúa como una capa intermedia entre el backend de Spring Boot (que gestiona la base de datos PostgreSQL y la comunicación con la aplicación React Native) y la lógica del algoritmo FSRS. Spring Boot envía peticiones a esta API para tareas como registrar repasos, obtener recomendaciones, etc., y recibe las respuestas con la información procesada por FSRS.
 
