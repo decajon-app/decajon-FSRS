@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+httpx
+fsrs  # Si lo instalaste con pip
+# O si tienes el código local:
+# -e ./fsrs  # (Si 'fsrs' es una carpeta local con el setup.py de py_fsrs)
